@@ -76,3 +76,8 @@ if __name__ == '__main__':
     fptr.write(str(result) + '\n')
 
     fptr.close()
+
+    logic:
+    when it is a downhill we need to decrment the level by 1
+    and when it's uphill we need to increment it by 
+    when the level is 0 and the i is uphill, means a valley is created otherwsise not.
