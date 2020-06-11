@@ -2,7 +2,7 @@ int birthday(vector<int> s, int d, int m) {
     int sum=0,i,end,count=0;
     for(i=0;i<m;i++)
     {
-        sm += s[i];
+        sum += s[i];
     }
     if(sum== d)
         count+=1;
