@@ -5,3 +5,5 @@ int squares(int a, int b) {
     {  
         p+=1;  
     }
+
+}
